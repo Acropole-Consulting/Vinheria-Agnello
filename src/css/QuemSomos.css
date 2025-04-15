@@ -6,54 +6,197 @@
             padding: 40px;
             background-color: #f9f5f0;
         }
-        .top-bar {
-            background-color: #600025;
-            color: #f9f5ef;
-            padding: 30px 30px;
-            display: flex;
-            gap: 50px;
-            font-size: 15px;
-        }
-        .logo {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            background-color:#f9f5f0;
-        }
-        .wine-container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            border-top: 4px solid #6b2737;
-        }
-        
-        h1 {
-            color: #6b2737;
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            font-weight: normal;
-            letter-spacing: 1px;
-        }
-        
-        .divider {
-            width: 100px;
-            height: 2px;
-            background-color: #d4a59a;
-            margin: 0 auto 30px;
-        }
-        
-        p {
-            text-align: justify;
-            font-size: 1.1em;
-            margin-bottom: 25px;
-            color: #555;
-        }
-        
-        .signature {
-            font-style: italic;
-            text-align: right;
-            margin-top: 30px;
-            color: #6b2737;
-        }
+        /* TOPO */
+
+.top-bar {
+    background-color: #600025;
+    color: #f9f5ef;
+    padding: 30px 30px;
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+}
+
+/* TOPO */
+
+/* Logo */
+
+.navbar {
+    background-color: #e5d4b8;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 30px;
+    gap: 80px; 
+    position: relative;
+}
+
+.logo {
+    height: 350px;
+    margin-bottom: -30px;
+    margin-top: -10px;
+    margin-left: 800px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-right: 120px;
+}
+
+.navbar li {
+    font-weight: bold;
+    color: #600025;
+    cursor: pointer;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #600025;
+    font-weight: bold;
+}
+/* Layout Color*/
+.layout{
+    background-color:#FAF9F6 ;
+}
+/* Layout Color*/
+
+
+
+
+/* excelencia 1 */
+
+.vinho-historia {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+
+.vinho-imagem {
+    flex: 1;
+    min-width: 300px;
+}
+
+.vinho-imagem img {
+    width: 100%;
+    height: auto;
+    margin-top: -200px;
+    margin-left: 50px;
+  }
+
+.vinho-conteudo {
+    flex: 1;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -800px;
+}
+
+.categoria {
+    font-size: 25px;
+    color: #600025;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.descricao {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+
+/* excelencia 1 */
+
+/* excelencia 2 */
+
+.vinho-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    flex-direction: row-reverse; /* <-- Isso aqui inverte! */
+
+}
+
+.vinho-imagemm {
+    flex: 1;
+    min-width: 300px;
+}
+
+.vinho-imagemm img {
+    width: 100%;
+    height: auto;
+    margin-left: -50px;
+    margin-top: -550px;
+    
+  }
+
+.vinho-conteudoo {
+    flex: 1;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -1300px;
+}
+
+.categoriaa {
+    font-size: 25px;
+    color: #600025;
+    margin-bottom: 20px;
+}
+
+.tituloo {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.descricaoo {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #d4a59a;
+    margin: 0 auto 30px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.signature {
+    font-style: italic;
+    text-align: right;
+    margin-top: 30px;
+    color: #6b2737;
+}
