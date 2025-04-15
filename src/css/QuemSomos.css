@@ -1,0 +1,52 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f5f0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f5f0;
+}
+.wine-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #6b2737;
+}
+
+h1 {
+    color: #6b2737;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #d4a59a;
+    margin: 0 auto 30px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.signature {
+    font-style: italic;
+    text-align: right;
+    margin-top: 30px;
+    color: #6b2737;
+}
