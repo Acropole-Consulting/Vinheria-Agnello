@@ -88,7 +88,7 @@
 .vinho-imagem img {
     width: 100%;
     height: auto;
-    margin-top: -200px;
+    margin-top: 20px;
     margin-left: 50px;
   }
 
@@ -98,7 +98,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -800px;
+    margin-top: -500px;
+    margin-left: 50px;
 }
 
 .categoria {
@@ -143,7 +144,7 @@
     width: 100%;
     height: auto;
     margin-left: -50px;
-    margin-top: -550px;
+    margin-top: -350px;
     
   }
 
@@ -151,9 +152,10 @@
     flex: 1;
     padding: 80px 100px;
     display: flex;
+    margin-left: -40px;
     flex-direction: column;
     justify-content: center;
-    margin-top: -1300px;
+    margin-top: -1000px;
 }
 
 .categoriaa {
@@ -200,3 +202,4 @@ p {
     margin-top: 30px;
     color: #6b2737;
 }
+
