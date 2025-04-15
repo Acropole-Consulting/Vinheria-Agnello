@@ -4,9 +4,8 @@ body {
     color: #2c2c2c;
     background-color: #f9f5ef;
 }
-  
-/* TOPO */
 
+/* TOPO */
 .top-bar {
     background-color: #600025;
     color: #f9f5ef;
@@ -14,27 +13,37 @@ body {
     display: flex;
     gap: 50px;
     font-size: 15px;
+    flex-wrap: wrap; /* Permite que os itens se movam para baixo em telas menores */
+    justify-content: space-between;
 }
 
-/* TOPO */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-bar a {
+    color: #f9f5ef;
+}
 
 /* Logo */
-
 .navbar {
     background-color: #e5d4b8;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 0 30px;
-    gap: 80px; 
+    gap: 80px;
     position: relative;
+    flex-wrap: wrap; /* Adiciona flex-wrap para dispositivos menores */
 }
 
 .logo {
-    height: 350px;
+    height: 500px;
     margin-bottom: -30px;
-    margin-top: -10px;
-    margin-left: 800px;
+    margin-top: -50px;
+    margin-left: 750px;
+    max-width: 100%;
 }
 
 .navbar ul {
@@ -45,14 +54,13 @@ body {
     padding: 0;
     font-size: 28px;
     margin-top: 50px;
-    margin-right: 120px;
+    margin-right: 100px;
 }
 
 .navbar li {
     font-weight: bold;
     color: #600025;
     cursor: pointer;
-
 }
 
 .navbar a {
@@ -61,13 +69,11 @@ body {
     font-weight: bold;
 }
 
-/* Logo */
-
 /* Banner Final */
 .bannerFinal {
-    width: 100vw;              
-    height: 70vh;             
-    overflow: hidden;        
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,30 +82,22 @@ body {
 .bannerFinal img {
     width: 100%;
     height: 60%;
-    object-fit: cover;   /* faz a imagem preencher sem distorcer */
-    margin-top: -270px;
+    object-fit: cover;
+    margin-top: -290px;
 }
 
-/* Banner Final */
-
-/* Layout Color*/
-.layout{
-    background-color:#FAF9F6 ;
+/* Layout Color */
+.layout {
+    background-color: #FAF9F6;
 }
-/* Layout Color*/
 
-
-
-
-/* excelencia 1 */
-
+/* Excelência 1 */
 .vinho-historia {
     display: flex;
     flex-wrap: wrap;
     min-height: 100vh;
     background-color: #F5F5F5;
 }
-
 
 .vinho-imagem {
     flex: 1;
@@ -111,7 +109,7 @@ body {
     height: auto;
     margin-top: -200px;
     margin-left: 50px;
-  }
+}
 
 .vinho-conteudo {
     flex: 1;
@@ -150,28 +148,22 @@ body {
     border-radius: 6px;
     color: #000;
     text-decoration: none;
-    max-width: fit-content;  
-    width: auto;             
+    max-width: fit-content;
+    width: auto;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-
 
 .botao-contato:hover {
     background-color: #600025;
     color: #fff;
 }
 
-/* excelencia 1 */
-
-/* excelencia 2 */
-
+/* Excelência 2 */
 .vinho-section {
     display: flex;
     flex-wrap: wrap;
     min-height: 100vh;
-    flex-direction: row-reverse; /* <-- Isso aqui inverte! */
-
+    flex-direction: row-reverse;
 }
 
 .vinho-imagemm {
@@ -184,8 +176,7 @@ body {
     height: auto;
     margin-left: -50px;
     margin-top: -550px;
-    
-  }
+}
 
 .vinho-conteudoo {
     flex: 1;
@@ -224,23 +215,17 @@ body {
     border-radius: 6px;
     color: #000;
     text-decoration: none;
-    max-width: fit-content;  /* Faz o botão ter apenas o tamanho do conteúdo */
-    width: auto;             /* Garante que não vai esticar */
+    max-width: fit-content;
+    width: auto;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .botao-contatoo:hover {
     background-color: #600025;
     color: #fff;
 }
 
-/* excelencia 2 */
-
-
-
 /* Banner */
-
 .banner {
     width: 100%;
     margin: 0;
@@ -250,20 +235,17 @@ body {
 
 .banner img {
     width: 100%;
-    height: 400px; /* Mantém a proporção da imagem */
-    display: block; /* Remove espaços em branco abaixo da imagem */
+    height: 400px;
+    display: block;
 }
 
-/* Banner */
-
-
-/* Notícias */
-
+/* Newsletter */
 .newsletter-container {
     background-color: #FAF9F6;
     padding: 142px 112px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; /* Ajusta a disposição dos itens em telas menores */
 }
 
 .subscribe > span {
@@ -282,32 +264,15 @@ body {
     font-weight: 700;
 }
 
-.results > span {
-    display: block;
-}
-
-.results .number {
-    font-size: 5.25rem;
-    color: #600025;
-    font-weight: 700;
-}
-
-.results .description {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-/* Notícias */
-
-
-/* Pareciros */
-
+/* Partners */
 .partners-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #e5d4b8;
+    flex-wrap: wrap; /* Permite que os parceiros se movam para baixo em telas menores */
 }
-  
+
 .partners-content {
     padding-left: 112px;
 }
@@ -322,7 +287,7 @@ body {
     margin-top: 20px;
     display: block;
     opacity: 0.7;
-    max-width: 470;
+    max-width: 470px;
 }
 
 .partners-content > a > button {
@@ -335,12 +300,45 @@ body {
     display: flex;
     gap: 4px;
 }
-/* Pareciros */
 
+/* Footer */
 footer {
     background-color: #ffffff;
     text-align: center;
     padding: 10px;
     color: #600025;
     background-color: #FAF9F6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar ul {
+        font-size: 22px;
+        gap: 20px;
+    }
+    
+    .logo {
+        margin-left: 0;
+        margin-bottom: 0;
+        max-height: 350px;
+    }
+    
+    .vinho-conteudo, .vinho-conteudoo {
+        padding: 40px;
+    }
+
+    .vinho-historia, .vinho-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partners-content {
+        padding-left: 40px;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px;
+    }
 }
