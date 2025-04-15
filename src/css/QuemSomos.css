@@ -1,12 +1,11 @@
- body {
-            font-family: 'Georgia', serif;
-            line-height: 1.8;
-            color: #333;
-            margin: 0 auto;
-            padding: 40px;
-            background-color: #f9f5f0;
-        }
-        /* TOPO */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #2c2c2c;
+    background-color: #f9f5ef;
+}
+
+/* TOPO */
 
 .top-bar {
     background-color: #600025;
@@ -61,10 +60,13 @@
     color: #600025;
     font-weight: bold;
 }
+
 /* Layout Color*/
+
 .layout{
     background-color:#FAF9F6 ;
 }
+
 /* Layout Color*/
 
 
@@ -90,7 +92,7 @@
     height: auto;
     margin-top: 20px;
     margin-left: 50px;
-  }
+}
 
 .vinho-conteudo {
     flex: 1;
@@ -145,8 +147,7 @@
     height: auto;
     margin-left: -50px;
     margin-top: -350px;
-    
-  }
+}
 
 .vinho-conteudoo {
     flex: 1;
@@ -178,28 +179,4 @@
     margin-bottom: 40px;
 }
 
-
-
-
-
-.divider {
-    width: 100px;
-    height: 2px;
-    background-color: #d4a59a;
-    margin: 0 auto 30px;
-}
-
-p {
-    text-align: justify;
-    font-size: 1.1em;
-    margin-bottom: 25px;
-    color: #555;
-}
-
-.signature {
-    font-style: italic;
-    text-align: right;
-    margin-top: 30px;
-    color: #6b2737;
-}
 
