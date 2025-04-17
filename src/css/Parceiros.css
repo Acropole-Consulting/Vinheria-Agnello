@@ -1,0 +1,41 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+title{
+    font-family: 'Georgia', serif;
+    color: #2c2c2c;
+    baackground-color: #f9efef;
+    line-height:  1.6;
+    padding: 20px;
+    
+}
+
+/*estilo da versao parceiros*/
+.Parceiros {
+    background-color: #600025 ;
+    font-family:  'Georgia', serif;
+    border-radius: 8px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 545px;
+    margin; 0 auto;
+    max-width: 800px; 
+}
+
+/*titulo de sessao*/
+.Parceiros h2 {
+    font-size: 5rem;
+    color: #f9f5ef;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*Alterando borda da imagem*/
+.Imagem {
+    border-radius: 20px ;
+    align-items: center ;
+    width: 550px;
+    height: auto;
+}
