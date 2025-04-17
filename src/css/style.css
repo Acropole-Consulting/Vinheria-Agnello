@@ -311,34 +311,35 @@ footer {
 }
 
 /* Responsividade */
+
 @media (max-width: 768px) {
-    .navbar ul {
-        font-size: 22px;
-        gap: 20px;
-    }
-    
-    .logo {
-        margin-left: 0;
-        margin-bottom: 0;
-        max-height: 350px;
-    }
-    
-    .vinho-conteudo, .vinho-conteudoo {
-        padding: 40px;
-    }
+.navbar ul {
+    font-size: 22px;
+    gap: 20px;
+}
 
-    .vinho-historia, .vinho-section {
-        flex-direction: column;
-        align-items: center;
-    }
+.logo {
+    margin-left: 0;
+    margin-bottom: 0;
+    max-height: 350px;
+}
 
-    .partners-content {
-        padding-left: 40px;
-    }
+.vinho-conteudo, .vinho-conteudoo {
+    padding: 40px;
+}
 
-    .newsletter-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 50px 20px;
-    }
+.vinho-historia, .vinho-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-content {
+    padding-left: 40px;
+}
+
+.newsletter-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
 }
