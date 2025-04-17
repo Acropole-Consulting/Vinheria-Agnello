@@ -264,6 +264,18 @@ a {
     font-weight: 700;
 }
 
+.number{
+    font-size: 80px;
+    color:#600025;
+    border: #2c2c2c;
+    margin-left: -20px;
+}
+
+.description{
+    font-size: 30px;
+    color: #600025;
+}
+
 /* Partners */
 .partners-container {
     display: flex;
