@@ -1,41 +1,57 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-title{
-    font-family: 'Georgia', serif;
-    color: #2c2c2c;
-    baackground-color: #f9efef;
-    line-height:  1.6;
-    padding: 20px;
-    
-}
 
-/*estilo da versao parceiros*/
-.Parceiros {
-    background-color: #600025 ;
-    font-family:  'Georgia', serif;
-    border-radius: 8px;
-    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 545px;
-    margin; 0 auto;
-    max-width: 800px; 
-}
-
-/*titulo de sessao*/
-.Parceiros h2 {
-    font-size: 5rem;
+.top-bar {
+    background-color: #600025;
     color: #f9f5ef;
-    margin-bottom: 20px;
-    text-align: center;
+    padding: 30px 30px;
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+    text-decoration: none;
+
 }
 
-/*Alterando borda da imagem*/
-.Imagem {
-    border-radius: 20px ;
-    align-items: center ;
-    width: 550px;
-    height: auto;
+a {
+    text-decoration: none;  
+    color: inherit;         
 }
+
+.top-bar a {
+    color: #f9f5ef; 
+    size: 0px;
+}
+
+
+body{
+    background-color: #f5f5dc;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #600025;
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+.container{
+    text-align: center;
+
+}
+
+.foto1  {
+    border-radius: 80px;
+    width: 350px;
+    box-shadow: 0 4px 8px (0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.foto2 {
+    border-radius: 80px;
+    width: 350px;
+    box-shadow: 0 4px 8px (0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+
+

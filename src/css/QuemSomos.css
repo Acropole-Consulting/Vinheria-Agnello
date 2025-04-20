@@ -1,36 +1,4 @@
-/* RESET E CONFIGURAÇÕES GERAIS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Georgia', serif;
-    color: #2c2c2c;
-    background-color: #f9f5ef;
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 /* CABEÇALHO */
 .top-bar {
@@ -262,16 +230,6 @@ img {
 .bannerBG img {
     width: 100%;
     border-radius: 8px;
-}
-
-
-/* RODAPÉ */
-footer {
-    background-color: #600025;
-    color: #f9f5ef;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
 }
 
 /* RESPONSIVIDADE */

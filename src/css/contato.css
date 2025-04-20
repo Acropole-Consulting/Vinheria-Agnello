@@ -1,0 +1,28 @@
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f5f0;
+} 
+.wine-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #6b2737;
+    text-align: center; /* Adicionado para centralizar o texto */
+}   
+
+h1 {
+    color: #6b2737;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.contact-list {
+    text-align: center;
+}
