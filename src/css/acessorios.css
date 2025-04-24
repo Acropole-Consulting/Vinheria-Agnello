@@ -24,8 +24,8 @@
 /* produtos */
 .box-acessorio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -35,7 +35,7 @@
     background-color: #fff;
     border: 1px solid #ddd;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 20px;
+    padding: 10px;
     margin: 6%;
 }
 
