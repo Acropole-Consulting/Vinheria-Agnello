@@ -274,13 +274,8 @@
     background-color: #8a0037;
 }
 
-.partners-container img {
-    flex: 1;
-    min-width: 300px;
-    max-width: 500px;
-    height: auto;
-    object-fit: contain;
-}
+
+
 
 /* Responsividade */
 @media (max-width: 992px) {
